@@ -14,6 +14,12 @@
     More info: https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
 */
 
+img{
+  display:block;
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+}
 .carousel {
     max-width: 600px;
     position: relative;
